@@ -1,4 +1,4 @@
-package spring_webapp;
+package spring_webapp.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

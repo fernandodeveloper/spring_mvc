@@ -1,4 +1,4 @@
-package spring_webapp;
+package spring_webapp.model;
 
 import java.util.LinkedHashMap;
 

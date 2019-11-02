@@ -1,4 +1,4 @@
-package spring_webapp;
+package spring_webapp.controller;
 
 import javax.servlet.http.HttpServletRequest;
 

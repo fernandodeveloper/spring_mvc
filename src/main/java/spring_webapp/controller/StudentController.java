@@ -1,9 +1,11 @@
-package spring_webapp;
+package spring_webapp.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import spring_webapp.model.Student;
 
 @Controller
 @RequestMapping("/student")
