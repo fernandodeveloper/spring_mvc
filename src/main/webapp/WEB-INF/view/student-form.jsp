@@ -20,8 +20,11 @@ First Name: <form:input path="firstName"/><br>Last Name: <form:input path="lastN
 		</form:select>
 		
 		<br><br>
+		<c:forEach  var="i" items="${languages}">
+				<form:radiobutton path="favoriteLanguage" value="Java" label="${i.id }"/>
+		</c:forEach>
 Favorite Language: <br>Javascript <form:radiobutton path="favoriteLanguage" value="Javascript"/>	<br>	
-Java <form:radiobutton path="favoriteLanguage" value="Java"/> <br>
+Java > <br>
 C# <form:radiobutton path="favoriteLanguage" value="C#"/> <br>		
 		<br><br>
 		
